@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casimir Engineering - Robotics & Test Engineering. From prototype to mass production — robotics, electronics, and test benches.">
+    <title>Casimir Engineering</title>
+    <link rel="icon" type="image/svg+xml" href="casimir-eng-logo.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="#hero" class="brand-link">
+                    <img src="casimir-eng-logo.svg" alt="Casimir Engineering Logo" class="brand-logo">
+                    <span class="brand-text">
+                        CASIMIR<br>ENGINEERING
+                    </span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-icon"></span>
+            </button>
+
+            <!-- Mobile Language Switcher (visible only on mobile) -->
+            <div class="mobile-lang-wrapper">
+                <a href="#" class="nav-link lang-switcher mobile-lang" id="mobileLangSwitcher">
+                    <span class="shortcut" data-i18n="nav.shortcut_language">[L]</span>
+                    <span id="mobileLangLabel">Français</span>
+                    <span class="lang-flag">🇫🇷</span>
+                </a>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#capabilities" class="nav-link"><span class="shortcut" data-i18n="nav.shortcut_capabilities">[K]</span> <span data-i18n="nav.capabilities">Capabilities</span></a>
+                <a href="#projects" class="nav-link"><span class="shortcut" data-i18n="nav.shortcut_projects">[P]</span> <span data-i18n="nav.projects">Projects</span></a>
+                <a href="#process" class="nav-link"><span class="shortcut" data-i18n="nav.shortcut_process">[W]</span> <span data-i18n="nav.process">Process</span></a>
+                <a href="#contact" class="nav-link"><span class="shortcut" data-i18n="nav.shortcut_contact">[C]</span> <span data-i18n="nav.contact">Contact</span></a>
+                <a href="#" class="nav-link lang-switcher" id="langSwitcher">
+                    <span class="shortcut" data-i18n="nav.shortcut_language">[L]</span>
+                    <span id="langLabel">Français</span>
+                    <span class="lang-flag">🇫🇷</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="hero" class="section hero">
+            <div class="container">
+                <h1 class="hero-title" data-i18n="hero.title">Robotics &amp; Test Engineering</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">From prototype to mass production - robotics, electronics, and test benches.</p>
+
+                <p class="hero-intro" data-i18n="hero.intro">
+                    My name is Raphaël Casimir. I help companies transform <b>ideas</b> into physical <b>products</b> with a focus on robust industrialization and automated test infrastructure.<br><br>I developed UAVs, robotics systems, consumer electronics, and provide end-to-end engineering support from concept through production ramp-up.
+                </p>
+
+                <p class="hero-location">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0C5.24 0 3 2.24 3 5c0 3.75 5 11 5 11s5-7.25 5-11c0-2.76-2.24-5-5-5zm0 7c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="currentColor"/>
+                    </svg>
+                    <span data-i18n="hero.location">Based in Lausanne, Switzerland. Working with partners in Switzerland, France, the UK and China.</span>
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="button button-primary" data-i18n="hero.cta_discuss">Discuss a project</a>
+                    <a href="#capabilities" class="button button-secondary" data-i18n="hero.cta_capabilities">See capabilities</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities Section -->
+        <section id="capabilities" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="capabilities.title">Capabilities</h2>
+
+                <div class="grid">
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.product.title">End-to-end product development</h3>
+                        <p class="card-description" data-i18n="cap.product.desc">Concept exploration, system architecture, and design. From initial requirements to manufacturing at scale, I guide projects through the complete development cycle with a pragmatic, manufacturing-aware approach.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="2" width="20" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="7" cy="7" r="1.5" fill="currentColor"/>
+                            <circle cx="7" cy="12" r="1.5" fill="currentColor"/>
+                            <circle cx="7" cy="17" r="1.5" fill="currentColor"/>
+                            <circle cx="12" cy="7" r="1.5" fill="currentColor"/>
+                            <circle cx="17" cy="7" r="1.5" fill="currentColor"/>
+                            <circle cx="17" cy="12" r="1.5" fill="currentColor"/>
+                            <circle cx="17" cy="17" r="1.5" fill="currentColor"/>
+                            <path d="M7 7L12 7M12 7L17 12M7 12L17 17" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.electronics.title">Electronics &amp; embedded systems</h3>
+                        <p class="card-description" data-i18n="cap.electronics.desc">PCB design, embedded software development, power systems, and sensor integration. Experience with electronics for robotics, UAVs, and industrial applications.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="5" y="4" width="14" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="8" cy="8" r="1" fill="currentColor"/>
+                            <circle cx="16" cy="8" r="1" fill="currentColor"/>
+                            <path d="M9 13H15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M7 17H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M4 9L2 11V15L4 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 9L22 11V15L20 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.robotics.title">Robotics &amp; mechatronics</h3>
+                        <p class="card-description" data-i18n="cap.robotics.desc">UAV systems, XYZ systems, actuators selection, and multi-sensor integration. Expertise in autonomous systems and real-time control architectures.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V7C19 5.89543 18.1046 5 17 5H15" stroke="currentColor" stroke-width="2"/>
+                            <rect x="9" y="3" width="6" height="4" rx="1" stroke="currentColor" stroke-width="2"/>
+                            <path d="M9 12L11 14L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="9" y1="17" x2="15" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.testbench.title">Test bench design &amp; automation</h3>
+                        <p class="card-description" data-i18n="cap.testbench.desc">Custom test benches for electronics and robotics validation. <a href="https://www.tofupilot.com">TofuPilot</a> is my prefered open-source test engine and analytics platform.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="8" width="20" height="12" stroke="currentColor" stroke-width="2"/>
+                            <path d="M6 8V4H18V8" stroke="currentColor" stroke-width="2"/>
+                            <rect x="6" y="12" width="3" height="4" fill="currentColor"/>
+                            <rect x="10.5" y="12" width="3" height="4" fill="currentColor"/>
+                            <rect x="15" y="12" width="3" height="4" fill="currentColor"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.industrial.title">Industrialization &amp; manufacturing</h3>
+                        <p class="card-description" data-i18n="cap.industrial.desc">Design for manufacturing (DFM), validation planning, certification support, and production ramp-up. Navigate the transition from prototype to mass production with experienced guidance.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 3C12 3 8 6 8 12C8 18 12 21 12 21" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 3C12 3 16 6 16 12C16 18 12 21 12 21" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                            <path d="M3 12H21" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.network.title">Global manufacturing network</h3>
+                        <p class="card-description" data-i18n="cap.network.desc">Coordination with manufacturing partners in Switzerland, France, the UK, and southern China. Access to diverse capabilities from precision Swiss manufacturing to high-volume Chinese production.</p>
+                    </div>
+
+                    <div class="card">
+                        <svg class="card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <line x1="8" y1="13" x2="16" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="8" y1="17" x2="16" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h3 class="card-title" data-i18n="cap.communication.title">Training &amp; communication</h3>
+                        <p class="card-description" data-i18n="cap.communication.desc">Technical training, investor presentations, and customer demonstrations. Clear communication of complex engineering concepts to diverse audiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-i18n="projects.title">Selected Projects</h2>
+
+                <div class="project-list">
+                    <article class="project">
+                        <h3 class="project-title" data-i18n="proj.devrel.title">Full stack IOT device development</h3>
+                        <p class="project-description" data-i18n="proj.devrel.desc">
+                            Complete development from idea to small series production of an IOT device.
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><strong data-i18n="proj.meta.scope">Scope:</strong> <span data-i18n="proj.devrel.scope">Product design, circuit board design, prototyping, small batch production</span></span>
+                            <span class="meta-item"><strong data-i18n="proj.meta.keywords">Keywords:</strong> <span data-i18n="proj.devrel.keywords">Hardware products, design, production</span></span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="project-title" data-i18n="proj.elec.title">R&amp;D &amp; Industrialization for airborne medical container</h3>
+                        <p class="project-description" data-i18n="proj.elec.desc">
+                            Electronics R&amp;D, fault investigation of existing systems, subcontractor management, industrialization and production management, customer demonstrations.
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><strong data-i18n="proj.meta.scope">Scope:</strong> <span data-i18n="proj.elec.scope">R&amp;D, industrialization, partner management</span></span>
+                            <span class="meta-item"><strong data-i18n="proj.meta.keywords">Keywords:</strong> <span data-i18n="proj.elec.keywords">Electronics, product development, manufacturing</span></span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="project-title" data-i18n="proj.uav.title">Professional and military UAV Test Benches</h3>
+                        <p class="project-description" data-i18n="proj.uav.desc">
+                            Designed, deployed and managed production test benches for professional mapping UAVs.
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><strong data-i18n="proj.meta.scope">Scope:</strong> <span data-i18n="proj.uav.scope">Test infrastructure, automation, validation</span></span>
+                            <span class="meta-item"><strong data-i18n="proj.meta.keywords">Keywords:</strong> <span data-i18n="proj.uav.keywords">UAV, drone, test benches, automation, validation</span></span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="project-title" data-i18n="proj.radar.title">Automated Test Systems for Military Radar</h3>
+                        <p class="project-description" data-i18n="proj.radar.desc">
+                            Developed automated performance test systems for military radar platforms.
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><strong data-i18n="proj.meta.scope">Scope:</strong> <span data-i18n="proj.radar.scope">Test automation, embedded systems, tooling</span></span>
+                            <span class="meta-item"><strong data-i18n="proj.meta.keywords">Keywords:</strong> <span data-i18n="proj.radar.keywords">Military, radar, defence, embedded, MATLAB, automation</span></span>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <h3 class="project-title" data-i18n="proj.cubesat.title">Project coordination for CubeSat development</h3>
+                        <p class="project-description" data-i18n="proj.cubesat.desc">
+                            Team coordination for CubeSat development, systems integration
+                        </p>
+                        <div class="project-meta">
+                            <span class="meta-item"><strong data-i18n="proj.meta.scope">Scope:</strong> <span data-i18n="proj.cubesat.scope">Research satellite development, team coordination</span></span>
+                            <span class="meta-item"><strong data-i18n="proj.meta.keywords">Keywords:</strong> <span data-i18n="proj.cubesat.keywords">CubeSat, team management, PCB design, space</span></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-i18n="process.title">How We Work</h2>
+
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number" data-i18n="process.step_numbers.0">01</div>
+                        <h3 class="step-title" data-i18n="process.discover.title">Discover</h3>
+                        <p class="step-description" data-i18n="process.discover.desc">
+                            Clarify requirements, technical constraints, and success metrics. Understand market context, regulatory requirements, and manufacturing constraints early to guide design decisions.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number" data-i18n="process.step_numbers.1">02</div>
+                        <h3 class="step-title" data-i18n="process.prototype.title">Prototype</h3>
+                        <p class="step-description" data-i18n="process.prototype.desc">
+                            Rapid iteration on electronics, mechanics, and firmware. Build functional prototypes to validate concepts, test performance, and identify integration challenges before committing to production design.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number" data-i18n="process.step_numbers.2">03</div>
+                        <h3 class="step-title" data-i18n="process.validate.title">Validate &amp; Test</h3>
+                        <p class="step-description" data-i18n="process.validate.desc">
+                            Design custom test benches, develop validation plans, and implement data capture systems. Establish repeatable test procedures that can transition to production quality control.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number" data-i18n="process.step_numbers.3">04</div>
+                        <h3 class="step-title" data-i18n="process.industrial.title">Industrialize</h3>
+                        <p class="step-description" data-i18n="process.industrial.desc">
+                            Design for manufacturing (DFM) review, partner selection, and production ramp-up support. Work with manufacturing partners to ensure smooth transition from prototype to mass production.
+                        </p>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number" data-i18n="process.step_numbers.4">05</div>
+                        <h3 class="step-title" data-i18n="process.support.title">Support</h3>
+                        <p class="step-description" data-i18n="process.support.desc">
+                            Long-term maintenance of test infrastructure, design updates, and production support. Ensure test benches remain calibrated and validated throughout product lifecycle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="contact.title">Get in Touch</h2>
+
+                <div class="contact-content">
+                    <p class="contact-intro" data-i18n="contact.intro">
+                        Whether you want to develop a new product or unblock your production, let's have a call. Or an email.
+                    </p>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <strong data-i18n="contact.location_label">Location</strong>
+                            <p data-i18n="contact.location_value">Lausanne, Vaud, Switzerland</p>
+                        </div>
+                        <div class="info-item">
+                            <strong data-i18n="contact.email_label">Email</strong>
+                            <p><a href="mailto:contact@casimir.engineering">contact@casimir.engineering</a></p>
+                        </div>
+                        <div class="info-item">
+                            <strong data-i18n="contact.phone_label">Phone</strong>
+                            <p>+41 78 882 18 00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright" data-i18n="footer.copyright">&copy; 2024 Raphaël Casimir. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#imprint" class="footer-link" data-i18n="footer.imprint">Imprint</a>
+                    <a href="#privacy" class="footer-link" data-i18n="footer.privacy">Privacy</a>
+                </div>
+                <p class="footer-hint" data-i18n="footer.hint">Press <kbd>?</kbd> for keyboard shortcuts</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Keyboard Shortcuts Overlay -->
+    <div id="shortcuts-overlay" class="shortcuts-overlay" aria-hidden="true">
+        <div class="shortcuts-modal" role="dialog" aria-labelledby="shortcuts-title" aria-modal="true">
+            <div class="shortcuts-header">
+                <h2 id="shortcuts-title" data-i18n="shortcuts.title">Keyboard Shortcuts</h2>
+                <button class="shortcuts-close" id="shortcutsClose" aria-label="Close">&times;</button>
+            </div>
+            <div class="shortcuts-body">
+                <dl class="shortcuts-list">
+                    <div class="shortcut-item">
+                        <dt><kbd>H</kbd></dt>
+                        <dd data-i18n="shortcuts.home">Home</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>K</kbd></dt>
+                        <dd data-i18n="shortcuts.capabilities">Capabilities</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>P</kbd></dt>
+                        <dd data-i18n="shortcuts.projects">Projects</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>W</kbd></dt>
+                        <dd data-i18n="shortcuts.process">Process</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>C</kbd></dt>
+                        <dd data-i18n="shortcuts.contact">Contact</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>L</kbd></dt>
+                        <dd data-i18n="shortcuts.language">Language</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>?</kbd></dt>
+                        <dd data-i18n="shortcuts.help">Toggle this help</dd>
+                    </div>
+                    <div class="shortcut-item">
+                        <dt><kbd>Esc</kbd></dt>
+                        <dd data-i18n="shortcuts.close">Close this help</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

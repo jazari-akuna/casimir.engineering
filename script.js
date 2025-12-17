@@ -46,7 +46,7 @@
     const TRANSLATIONS = {
         en: {
             hero: {
-                title: 'Robotics & Test Engineering',
+                title: 'Let\'s build it together.',
                 subtitle: 'From prototype to mass production - robotics, electronics, and test benches.',
                 intro: 'My name is Raphaël Casimir. I help companies transform <b>ideas</b> into physical <b>products</b> with a focus on robust industrialization and automated test infrastructure.<br><br>From military radars to consumer electronics, I am able to provide end-to-end engineering support thanks to a network of engineers and industrial partners.',
                 location: 'Based in Lausanne, Switzerland. Working with partners in Switzerland, France, the UK and China.',
@@ -192,7 +192,7 @@
         },
         fr: {
             hero: {
-                title: 'Robotique & Bancs de Test',
+                title: 'Oui, c\'est possible. Construisons ensemble.',
                 subtitle: 'Du prototype à la production de masse - inǵenierie robotique, électronique et bancs de test.',
                 intro: 'Je suis Raphaël Casimir. J\'aide les entreprises à transformer leurs <b>idées</b> en <b>produits</b> physiques en prenant en compte les questions d\'industrialisation.<br><br>Je travaille avec un réseau de partenaires pour assurer une large couverture de domaines, des radars militaires à l\'électronique grand public.',
                 location: 'Basé à Lausanne, Suisse. Collaboration avec des partenaires en Suisse, France, Royaume-Uni et Chine.',
@@ -312,7 +312,7 @@
             },
             contact: {
                 title: 'Nous Contacter',
-                intro: 'Que vous souhaitiez développer un nouveau produit ou débloquer votre production, discuttons-en par téléphone ou par email.',
+                intro: 'Que vous souhaitiez développer un nouveau produit ou débloquer votre production, parlons-en par téléphone ou par email.',
                 location_label: 'Localisation',
                 location_value: 'Lausanne, Vaud, Suisse',
                 email_label: 'Email',

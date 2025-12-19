@@ -1,0 +1,6 @@
+# Casimir Engineering - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://casimir.engineering/sitemap.xml

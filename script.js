@@ -48,7 +48,7 @@
             hero: {
                 title: 'Let\'s build it together.',
                 subtitle: 'From prototype to mass production - robotics, electronics, and test benches.',
-                intro: 'My name is Raphaël Casimir. I help companies transform <b>ideas</b> into physical <b>products</b> with a focus on robust industrialization and automated test infrastructure.<br><br>From military radars to consumer electronics, I am able to provide end-to-end engineering support thanks to a network of engineers and industrial partners.',
+                intro: 'We are a Swiss engineering consultancy.<br>We help companies transform <b>ideas</b> into physical <b>products</b> with a focus on robust industrialization and automated test infrastructure.<br><br>From military radars to consumer electronics, we provide end-to-end engineering support thanks to a network of engineers and industrial partners.',
                 location: 'Based in Lausanne, Switzerland. Working with partners in Switzerland, France, the UK and China.',
                 cta_discuss: 'Discuss a project',
                 cta_capabilities: 'See capabilities'
@@ -74,7 +74,7 @@
             cap: {
                 product: {
                     title: 'End-to-end product development',
-                    desc: 'Concept exploration, system architecture, and design. From initial requirements to manufacturing at scale, I guide projects through the complete development cycle with a pragmatic, manufacturing-aware approach.'
+                    desc: 'Concept exploration, system architecture, and design. From initial requirements to manufacturing at scale, we guide projects through the complete development cycle with a pragmatic, manufacturing-aware approach.'
                 },
                 electronics: {
                     title: 'Electronics & embedded systems',
@@ -86,7 +86,7 @@
                 },
                 testbench: {
                     title: 'Test bench design & automation',
-                    desc: 'Custom test benches for electronics and robotics validation. <a href="https://www.tofupilot.com">TofuPilot</a> is my prefered open-source test engine and analytics platform.'
+                    desc: 'Custom test benches for electronics and robotics validation. <a href="https://www.tofupilot.com">TofuPilot</a> is our preferred open-source test engine and analytics platform.'
                 },
                 industrial: {
                     title: 'Industrialization & manufacturing',
@@ -102,7 +102,7 @@
                 }
             },
             projects: {
-                title: 'Selected Projects'
+                title: 'Projects Delivered'
             },
             proj: {
                 meta: {
@@ -174,8 +174,6 @@
             },
             footer: {
                 copyright: '© 2024 Raphaël Casimir. All rights reserved.',
-                imprint: 'Imprint',
-                privacy: 'Privacy',
                 hint: 'Press ? for keyboard shortcuts'
             },
             shortcuts: {
@@ -194,7 +192,7 @@
             hero: {
                 title: 'Oui, c\'est possible. Construisons ensemble.',
                 subtitle: 'Du prototype à la production de masse - inǵenierie robotique, électronique et bancs de test.',
-                intro: 'Je suis Raphaël Casimir. J\'aide les entreprises à transformer leurs <b>idées</b> en <b>produits</b> physiques en prenant en compte les questions d\'industrialisation.<br><br>Je travaille avec un réseau de partenaires pour assurer une large couverture de domaines, des radars militaires à l\'électronique grand public.',
+                intro: 'Nous sommes un bureau d\'ingénierie suisse.<br>Nous aidons les entreprises à transformer leurs <b>idées</b> en <b>produits</b> physiques en prenant en compte les questions d\'industrialisation.<br><br>Nous travaillons avec un réseau de partenaires pour assurer une large couverture de domaines, des radars militaires à l\'électronique grand public.',
                 location: 'Basé à Lausanne, Suisse. Collaboration avec des partenaires en Suisse, France, Royaume-Uni et Chine.',
                 cta_discuss: 'Discuter d\'un projet',
                 cta_capabilities: 'Voir les compétences'
@@ -220,7 +218,7 @@
             cap: {
                 product: {
                     title: 'Développement de produit de bout en bout',
-                    desc: 'Exploration de concept, architecture système et conception. Des exigences initiales à la fabrication à grande échelle, je guide les projets à travers le cycle complet de développement avec une approche pragmatique et avec la possibilité de produire en masse. La réparabilité, fin de vie du produit et les considérations écologiques sont prises en compte.'
+                    desc: 'Exploration de concept, architecture système et conception. Des exigences initiales à la fabrication à grande échelle, nous guidons les projets à travers le cycle complet de développement avec une approche pragmatique et avec la possibilité de produire en masse. La réparabilité, fin de vie du produit et les considérations écologiques sont prises en compte.'
                 },
                 electronics: {
                     title: 'Électronique & systèmes embarqués',
@@ -232,7 +230,7 @@
                 },
                 testbench: {
                     title: 'Conception & automatisation de bancs de test',
-                    desc: 'Bancs de test personnalisés pour la validation électronique et robotique. <a href="https://www.tofupilot.com">TofuPilot</a> est mon moteur de test et plateforme d\'analyse open-source préféré.'
+                    desc: 'Bancs de test personnalisés pour la validation électronique et robotique. <a href="https://www.tofupilot.com">TofuPilot</a> est notre moteur de test et plateforme d\'analyse open-source préféré.'
                 },
                 industrial: {
                     title: 'Industrialisation & fabrication',
@@ -248,7 +246,7 @@
                 }
             },
             projects: {
-                title: 'Projets Sélectionnés'
+                title: 'Nos Réalisations'
             },
             proj: {
                 meta: {
@@ -312,7 +310,7 @@
             },
             contact: {
                 title: 'Nous Contacter',
-                intro: 'Que vous souhaitiez développer un nouveau produit ou débloquer votre production, parlons-en par téléphone ou par email.',
+                intro: 'Que vous souhaitiez développer un nouveau produit ou débloquer votre production, parlons-en au téléphone ou par email.',
                 location_label: 'Localisation',
                 location_value: 'Lausanne, Vaud, Suisse',
                 email_label: 'Email',
@@ -320,8 +318,6 @@
             },
             footer: {
                 copyright: '© 2024 Raphaël Casimir. Tous droits réservés.',
-                imprint: 'Mentions légales',
-                privacy: 'Confidentialité',
                 hint: 'Appuyez sur ? pour les raccourcis clavier'
             },
             shortcuts: {

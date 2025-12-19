@@ -337,7 +337,7 @@ kbd {
 }
 
 .hero-subtitle {
-    font-size: var(--font-size-large);
+    font-size: 1.35rem;
     color: var(--color-text-muted);
     margin-bottom: var(--space-lg);
 }

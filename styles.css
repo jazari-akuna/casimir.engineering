@@ -200,7 +200,7 @@ kbd {
 }
 
 .brand-link:hover {
-    color: var(--color-accent);
+    color: var(--color-text);
     text-decoration: none;
 }
 
@@ -358,6 +358,10 @@ kbd {
     margin-bottom: var(--space-xl);
 }
 
+.hero-location .icon {
+    flex-shrink: 0;
+}
+
 .icon {
     color: var(--color-text-muted);
 }
@@ -378,6 +382,7 @@ kbd {
     font-size: var(--font-size-base);
     font-weight: 500;
     text-decoration: none;
+    text-align: center;
     border-radius: var(--border-radius);
     transition: all var(--transition-fast);
     border: 1px solid var(--color-border);
@@ -790,6 +795,27 @@ kbd {
     /* Keyboard shortcuts styling in mobile */
     .nav-links .shortcut {
         margin-right: 0.5rem;
+    }
+
+    /* Hero buttons on same line */
+    .hero-actions {
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    .hero-actions .button {
+        flex: 1;
+        text-align: center;
+        padding: 0.75rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Scale up location icon on mobile */
+    .hero-location .icon {
+        width: 20px;
+        height: 20px;
     }
 }
 

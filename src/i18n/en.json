@@ -1,0 +1,145 @@
+{
+  "lang": "en",
+  "locale": "en_US",
+  "meta": {
+    "title": "Casimir Engineering - Swiss Robotics & Electronics Consultancy",
+    "description": "Swiss engineering consultancy specializing in robotics, electronics, and test bench automation. From prototype to mass production - based in Lausanne, Switzerland.",
+    "keywords": "engineering consultancy, robotics, electronics, test benches, Switzerland, Lausanne, product development, industrialization, embedded systems, UAV, drone, PCB design, hardware development, mechatronics, prototype, mass production, manufacturing, automation, validation, firmware, sensors, defence, radar, medical devices, IoT"
+  },
+  "hero": {
+    "title": "Let's build it together.",
+    "subtitle": "From prototype to mass production - robotics, electronics, and test benches.",
+    "intro": "We are a Swiss engineering consultancy.<br>We help companies transform <b>ideas</b> into physical <b>products</b> with a focus on robust industrialization and automated test infrastructure.<br><br>From military radars to consumer electronics, we provide end-to-end engineering support thanks to a network of engineers and industrial partners.",
+    "location": "Based in Lausanne, Switzerland. Working with partners in Switzerland, France, the UK and China.",
+    "cta_discuss": "Discuss a project",
+    "cta_capabilities": "See capabilities"
+  },
+  "nav": {
+    "capabilities": "Capabilities",
+    "projects": "Projects",
+    "process": "Process",
+    "contact": "Contact"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "close_button": "Close"
+  },
+  "capabilities": {
+    "title": "Capabilities"
+  },
+  "cap": {
+    "product": {
+      "title": "End-to-end product development",
+      "desc": "Concept exploration, system architecture, and design. From initial requirements to manufacturing at scale, we guide projects through the complete development cycle with a pragmatic, manufacturing-aware approach."
+    },
+    "electronics": {
+      "title": "Electronics & embedded systems",
+      "desc": "PCB design, embedded software development, power systems, and sensor integration. Experience with electronics for robotics, UAVs, and industrial applications."
+    },
+    "robotics": {
+      "title": "Robotics & mechatronics",
+      "desc": "UAV systems, XYZ systems, actuators selection, and multi-sensor integration. Expertise in autonomous systems and real-time control architectures."
+    },
+    "testbench": {
+      "title": "Test bench design & automation",
+      "desc": "Custom test benches for electronics and robotics validation. <a href=\"https://www.tofupilot.com\">TofuPilot</a> is our preferred open-source test engine and analytics platform."
+    },
+    "industrial": {
+      "title": "Industrialization & manufacturing",
+      "desc": "Design for manufacturing (DFM), validation planning, certification support, and production ramp-up. Navigate the transition from prototype to mass production with experienced guidance."
+    },
+    "network": {
+      "title": "Global manufacturing network",
+      "desc": "Coordination with manufacturing partners in Switzerland, France, the UK, and southern China. Access to diverse capabilities from precision Swiss manufacturing to high-volume Chinese production."
+    },
+    "communication": {
+      "title": "Training & communication",
+      "desc": "Technical training, investor presentations, and customer demonstrations. Clear communication of complex engineering concepts to diverse audiences."
+    }
+  },
+  "projects": {
+    "title": "Projects Delivered"
+  },
+  "proj": {
+    "meta": {
+      "scope": "Scope:",
+      "keywords": "Keywords:"
+    },
+    "uav": {
+      "title": "Professional and military UAV Test Benches",
+      "desc": "Designed, deployed and managed production test benches for professional mapping UAVs.",
+      "scope": "Test infrastructure, automation, validation",
+      "keywords": "UAV, drone, test benches, automation, validation"
+    },
+    "elec": {
+      "title": "R&D & Industrialization for airborne medical container",
+      "desc": "Electronics R&D, fault investigation of existing systems, subcontractor management, industrialization and production management, customer demonstrations.",
+      "scope": "R&D, industrialization, partner management",
+      "keywords": "Electronics, product development, manufacturing"
+    },
+    "radar": {
+      "title": "Automated Test Systems for Military Radar",
+      "desc": "Developed automated performance test systems for military radar platforms.",
+      "scope": "Test automation, embedded systems, tooling",
+      "keywords": "Military, radar, defence, embedded, MATLAB, automation"
+    },
+    "devrel": {
+      "title": "Full stack IOT device development",
+      "desc": "Complete development from idea to small series production of an IOT device.",
+      "scope": "Product design, circuit board design, prototyping, small batch production",
+      "keywords": "Hardware products, design, production"
+    },
+    "cubesat": {
+      "title": "Project coordination for CubeSat development",
+      "desc": "Team coordination for CubeSat development, systems integration",
+      "scope": "Research satellite development, team coordination",
+      "keywords": "CubeSat, team management, PCB design, space"
+    }
+  },
+  "process": {
+    "title": "How We Work",
+    "discover": {
+      "title": "Discover",
+      "desc": "Clarify requirements, technical constraints, and success metrics. Understand market context, regulatory requirements, and manufacturing constraints early to guide design decisions."
+    },
+    "prototype": {
+      "title": "Prototype",
+      "desc": "Rapid iteration on electronics, mechanics, and firmware. Build functional prototypes to validate concepts, test performance, and identify integration challenges before committing to production design."
+    },
+    "validate": {
+      "title": "Validate & Test",
+      "desc": "Design custom test benches, develop validation plans, and implement data capture systems. Establish repeatable test procedures that can transition to production quality control."
+    },
+    "industrial": {
+      "title": "Industrialize",
+      "desc": "Design for manufacturing (DFM) review, partner selection, and production ramp-up support. Work with manufacturing partners to ensure smooth transition from prototype to mass production."
+    },
+    "support": {
+      "title": "Support",
+      "desc": "Long-term maintenance of test infrastructure, design updates, and production support. Ensure test benches remain calibrated and validated throughout product lifecycle."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "intro": "Whether you want to develop a new product or unblock your production, let's have a call. Or an email.",
+    "location_label": "Location",
+    "location_value": "Lausanne, Vaud, Switzerland",
+    "email_label": "Email",
+    "phone_label": "Phone"
+  },
+  "footer": {
+    "copyright": "© 2024 Raphaël Casimir. All rights reserved.",
+    "hint": "Press ? for keyboard shortcuts"
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "home": "Home",
+    "capabilities": "Capabilities",
+    "projects": "Projects",
+    "process": "Process",
+    "contact": "Contact",
+    "language": "Language",
+    "help": "Toggle this help",
+    "close": "Close this help"
+  }
+}

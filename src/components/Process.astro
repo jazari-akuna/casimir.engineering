@@ -1,0 +1,31 @@
+---
+interface Props {
+  t: Record<string, any>;
+}
+
+const { t } = Astro.props;
+
+const steps = [
+  { key: 'discover', num: '01' },
+  { key: 'prototype', num: '02' },
+  { key: 'validate', num: '03' },
+  { key: 'industrial', num: '04' },
+  { key: 'support', num: '05' }
+];
+---
+
+<section id="process" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">{t.process.title}</h2>
+
+        <div class="process-steps">
+            {steps.map((step) => (
+                <div class="step">
+                    <div class="step-number">{step.num}</div>
+                    <h3 class="step-title">{t.process[step.key].title}</h3>
+                    <p class="step-description">{t.process[step.key].desc}</p>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>

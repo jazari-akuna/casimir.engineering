@@ -1,0 +1,15 @@
+---
+// Redirect based on browser language
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://casimir.engineering/en/">
+    <title>Casimir Engineering</title>
+    <script>location.replace((navigator.language||'').startsWith('fr')?'fr/':'en/')</script>
+    <noscript><meta http-equiv="refresh" content="0;url=en/"></noscript>
+</head>
+<body></body>
+</html>

@@ -1,0 +1,29 @@
+---
+interface Props {
+  lang: 'en' | 'fr';
+  t: Record<string, any>;
+}
+
+const { lang, t } = Astro.props;
+---
+
+<section id="hero" class="section hero">
+    <div class="container">
+        <h1 class="hero-title">{t.hero.title}</h1>
+        <p class="hero-subtitle">{t.hero.subtitle}</p>
+
+        <p class="hero-intro" set:html={t.hero.intro} />
+
+        <p class="hero-location">
+            <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0C5.24 0 3 2.24 3 5c0 3.75 5 11 5 11s5-7.25 5-11c0-2.76-2.24-5-5-5zm0 7c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="currentColor"/>
+            </svg>
+            <span>{t.hero.location}</span>
+        </p>
+
+        <div class="hero-actions">
+            <a href={`/${lang}/#contact`} class="button button-primary">{t.hero.cta_discuss}</a>
+            <a href={`/${lang}/#capabilities`} class="button button-secondary">{t.hero.cta_capabilities}</a>
+        </div>
+    </div>
+</section>

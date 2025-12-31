@@ -1,0 +1,145 @@
+{
+  "lang": "fr",
+  "locale": "fr_FR",
+  "meta": {
+    "title": "Casimir Engineering - Bureau d'ingénierie robotique et électronique",
+    "description": "Bureau d'ingénierie suisse spécialisé en robotique, électronique et bancs de test. Du prototype à la production de masse - basé à Lausanne, Suisse.",
+    "keywords": "bureau d'études, ingénierie, électronique, robotique, bancs de test, Suisse, développement produit, conception PCB, systèmes embarqués, mécatronique, prototype, production série, automatisation, validation, industrialisation"
+  },
+  "hero": {
+    "title": "Oui, c'est possible. Construisons ensemble.",
+    "subtitle": "Du prototype à la production de masse - ingénierie robotique, électronique et bancs de test.",
+    "intro": "Nous sommes un bureau d'ingénierie suisse.<br>Nous aidons les entreprises à transformer leurs <b>idées</b> en <b>produits</b> physiques en prenant en compte les questions d'industrialisation.<br><br>Nous travaillons avec un réseau de partenaires pour assurer une large couverture de domaines, des radars militaires à l'électronique grand public.",
+    "location": "Basé à Lausanne, Suisse. Collaboration avec des partenaires en Suisse, France, Royaume-Uni et Chine.",
+    "cta_discuss": "Discuter d'un projet",
+    "cta_capabilities": "Voir les compétences"
+  },
+  "nav": {
+    "capabilities": "Compétences",
+    "projects": "Projets",
+    "process": "Processus",
+    "contact": "Contact"
+  },
+  "ui": {
+    "skip_link": "Aller au contenu principal",
+    "close_button": "Fermer"
+  },
+  "capabilities": {
+    "title": "Compétences"
+  },
+  "cap": {
+    "product": {
+      "title": "Développement de produit de bout en bout",
+      "desc": "Exploration de concept, architecture système et conception. Des exigences initiales à la fabrication à grande échelle, nous guidons les projets à travers le cycle complet de développement avec une approche pragmatique et avec la possibilité de produire en masse. La réparabilité, fin de vie du produit et les considérations écologiques sont prises en compte."
+    },
+    "electronics": {
+      "title": "Électronique & systèmes embarqués",
+      "desc": "Conception de circuits imprimés (PCB), développement logiciel embarqué, systèmes d'alimentation et intégration de capteurs. Expérience avec l'électronique pour la robotique, les UAV (drones) et les applications industrielles."
+    },
+    "robotics": {
+      "title": "Robotique & mécatronique",
+      "desc": "Drones volants ou terrestres, machines XYZ, sélection d'actionneurs et intégration de capteurs. Expertise en systèmes autonomes et architectures de contrôle en temps réel."
+    },
+    "testbench": {
+      "title": "Conception & automatisation de bancs de test",
+      "desc": "Bancs de test personnalisés pour la validation électronique et robotique. <a href=\"https://www.tofupilot.com\">TofuPilot</a> est notre moteur de test et plateforme d'analyse open-source préféré."
+    },
+    "industrial": {
+      "title": "Industrialisation & fabrication",
+      "desc": "Design for Manufacturing (DFM), planification de validation, support de certification et montée en production. Accompagnement dans la transition du prototype à la production de masse avec des conseils expérimentés."
+    },
+    "network": {
+      "title": "Réseau de fabrication mondial",
+      "desc": "Coordination avec des partenaires de fabrication en Suisse, France, Royaume-Uni et sud de la Chine. Accès à diverses capacités allant de la fabrication de précision suisse à la production à grand volume chinoise."
+    },
+    "communication": {
+      "title": "Formation & communication",
+      "desc": "Formation technique, présentations pour investisseurs et démonstrations clients. Communication claire de concepts d'ingénierie complexes à des publics variés."
+    }
+  },
+  "projects": {
+    "title": "Nos Réalisations"
+  },
+  "proj": {
+    "meta": {
+      "scope": "Périmètre :",
+      "keywords": "Mots-clés :"
+    },
+    "uav": {
+      "title": "Bancs de test UAV professionnels et militaires",
+      "desc": "Conception, déploiement et gestion de bancs de test de production pour UAV de cartographie professionnels.",
+      "scope": "Infrastructure de test, automatisation, validation",
+      "keywords": "UAV, drone, bancs de test, automatisation, validation"
+    },
+    "elec": {
+      "title": "R&D et industrialisation pour conteneur médical aéroporté",
+      "desc": "R&D électronique, investigation de pannes de systèmes existants, gestion de sous-traitants, industrialisation et gestion de production, démonstrations clients.",
+      "scope": "R&D, industrialisation, gestion de partenaires",
+      "keywords": "Électronique, développement produit, fabrication"
+    },
+    "radar": {
+      "title": "Systèmes de test automatisés pour radar militaire",
+      "desc": "Développement de tests de performance automatisés pour radars militaires.",
+      "scope": "Automatisation de tests, systèmes embarqués, outillage",
+      "keywords": "Militaire, radar, défense, embarqué, MATLAB, automatisation"
+    },
+    "devrel": {
+      "title": "Développement de dispositif IOT full stack",
+      "desc": "Développement complet de l'idée à la production en petite série d'un dispositif IOT.",
+      "scope": "Conception produit, conception de circuits imprimés, prototypage, production en petites séries",
+      "keywords": "Produits matériels, conception, production"
+    },
+    "cubesat": {
+      "title": "Coordination de projet pour développement d'un CubeSat",
+      "desc": "Coordination d'équipe pour développement d'un CubeSat, intégration des systèmes",
+      "scope": "Développement de satellite de recherche, coordination d'équipe",
+      "keywords": "CubeSat, gestion d'équipe, conception PCB, espace"
+    }
+  },
+  "process": {
+    "title": "Le processus de développement",
+    "discover": {
+      "title": "Découvrir",
+      "desc": "Clarifier les exigences, contraintes techniques et critères de réussite. Comprendre le contexte du marché, les exigences réglementaires et les contraintes de fabrication dès le début pour guider les décisions de conception."
+    },
+    "prototype": {
+      "title": "Prototyper",
+      "desc": "Itération rapide sur l'électronique, la mécanique et le firmware. Construire des prototypes fonctionnels pour valider les concepts, tester les performances et identifier les défis d'intégration avant de s'engager dans la conception de production."
+    },
+    "validate": {
+      "title": "Valider & Tester",
+      "desc": "Concevoir des bancs de test personnalisés, développer des plans de validation et implémenter des systèmes de capture de données. Établir des procédures de test reproductibles qui pourront ensuite transitionner vers le contrôle qualité en production."
+    },
+    "industrial": {
+      "title": "Industrialiser",
+      "desc": "Design for Manufacturing (DFM), sélection de partenaires et support de montée en production. Travailler avec les partenaires de fabrication pour assurer une transition fluide du prototype à la production en série."
+    },
+    "support": {
+      "title": "Support",
+      "desc": "Maintenance à long terme de l'infrastructure de test, mises à jour de conception et support en production. Assurer que les bancs de test restent calibrés et opérationnels tout au long du cycle de vie du produit."
+    }
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "intro": "Que vous souhaitiez développer un nouveau produit ou débloquer votre production, parlons-en au téléphone ou par email.",
+    "location_label": "Localisation",
+    "location_value": "Lausanne, Vaud, Suisse",
+    "email_label": "Email",
+    "phone_label": "Téléphone"
+  },
+  "footer": {
+    "copyright": "© 2024 Raphaël Casimir. Tous droits réservés.",
+    "hint": "Appuyez sur ? pour les raccourcis clavier"
+  },
+  "shortcuts": {
+    "title": "Raccourcis Clavier",
+    "home": "Accueil",
+    "capabilities": "Compétences",
+    "projects": "Projets",
+    "process": "Processus",
+    "contact": "Contact",
+    "language": "Langue",
+    "help": "Afficher/masquer cette aide",
+    "close": "Fermer cette aide"
+  }
+}

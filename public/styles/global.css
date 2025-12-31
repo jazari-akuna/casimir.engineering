@@ -219,7 +219,16 @@ kbd {
     letter-spacing: 0.05em;
 }
 
-/* Mobile Menu Toggle Button */
+/* CSS-only Mobile Menu (checkbox hack) */
+.mobile-menu-checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+/* Mobile Menu Toggle Label (styled as button) */
 .mobile-menu-toggle {
     display: none; /* Hidden on desktop */
     background: none;
@@ -256,16 +265,16 @@ kbd {
     top: 7px;
 }
 
-/* Hamburger change to X when menu is open (no animation) */
-.mobile-menu-toggle[aria-expanded="true"] .hamburger-icon {
+/* Hamburger change to X when menu is open (checkbox hack) */
+.mobile-menu-checkbox:checked ~ .mobile-menu-toggle .hamburger-icon {
     background-color: transparent;
 }
 
-.mobile-menu-toggle[aria-expanded="true"] .hamburger-icon::before {
+.mobile-menu-checkbox:checked ~ .mobile-menu-toggle .hamburger-icon::before {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-.mobile-menu-toggle[aria-expanded="true"] .hamburger-icon::after {
+.mobile-menu-checkbox:checked ~ .mobile-menu-toggle .hamburger-icon::after {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
@@ -317,8 +326,13 @@ kbd {
 }
 
 .lang-flag {
-    font-size: 1.125rem;
+    display: inline-flex;
+    align-items: center;
     line-height: 1;
+}
+
+.lang-flag svg {
+    vertical-align: middle;
 }
 
 /* ========================================
@@ -770,8 +784,8 @@ kbd {
         width: 100%;
     }
 
-    /* Show nav-links when menu is open */
-    .nav-links.open {
+    /* Show nav-links when checkbox is checked (CSS-only mobile menu) */
+    .mobile-menu-checkbox:checked ~ .nav-links {
         display: flex;
     }
 

@@ -1,0 +1,77 @@
+---
+import { getAlternateLang, getLanguageInfo } from '../i18n';
+
+interface Props {
+  lang: 'en' | 'fr';
+  t: Record<string, any>;
+}
+
+const { lang, t } = Astro.props;
+const altLang = getAlternateLang(lang);
+const altLangInfo = getLanguageInfo(altLang);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>{t.meta.title}</title>
+    <meta name="description" content={t.meta.description}>
+    <meta name="keywords" content={t.meta.keywords}>
+    <meta name="author" content="Raphaël Casimir">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href={canonicalURL}>
+
+    <!-- Language Alternates (CORRECT URLs) -->
+    <link rel="alternate" hreflang="en" href="https://casimir.engineering/en/">
+    <link rel="alternate" hreflang="fr" href="https://casimir.engineering/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://casimir.engineering/en/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content={canonicalURL}>
+    <meta property="og:title" content={t.meta.title}>
+    <meta property="og:description" content={t.meta.description}>
+    <meta property="og:image" content="https://casimir.engineering/casimir-eng-logo-square.png">
+    <meta property="og:locale" content={t.locale}>
+    <meta property="og:locale:alternate" content={lang === 'en' ? 'fr_FR' : 'en_US'}>
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content={t.meta.title}>
+    <meta name="twitter:description" content={t.meta.description}>
+    <meta name="twitter:image" content="https://casimir.engineering/casimir-eng-logo-square.png">
+
+    <!-- Theme & Icons -->
+    <meta name="theme-color" content="#da291c">
+    <link rel="icon" type="image/svg+xml" href="/casimir-eng-logo.svg">
+    <link rel="apple-touch-icon" href="/casimir-eng-logo-square.png">
+
+    <!-- Structured Data for Google (language-specific) -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Casimir Engineering",
+        "url": `https://casimir.engineering/${lang}/`,
+        "logo": "https://casimir.engineering/casimir-eng-logo-square.png",
+        "description": t.meta.description,
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lausanne",
+            "addressCountry": "CH"
+        },
+        "sameAs": []
+    })} />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+    <slot />
+    <script src="/scripts/keyboard-shortcuts.js" defer></script>
+</body>
+</html>

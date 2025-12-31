@@ -1,0 +1,52 @@
+---
+interface Props {
+  t: Record<string, any>;
+}
+
+const { t } = Astro.props;
+---
+
+<div id="shortcuts-overlay" class="shortcuts-overlay" aria-hidden="true">
+    <div class="shortcuts-modal" role="dialog" aria-labelledby="shortcuts-title" aria-modal="true">
+        <div class="shortcuts-header">
+            <h2 id="shortcuts-title">{t.shortcuts.title}</h2>
+            <button class="shortcuts-close" id="shortcutsClose" aria-label={t.ui.close_button}>&times;</button>
+        </div>
+        <div class="shortcuts-body">
+            <dl class="shortcuts-list">
+                <div class="shortcut-item">
+                    <dt><kbd>H</kbd></dt>
+                    <dd>{t.shortcuts.home}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>K</kbd></dt>
+                    <dd>{t.shortcuts.capabilities}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>P</kbd></dt>
+                    <dd>{t.shortcuts.projects}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>W</kbd></dt>
+                    <dd>{t.shortcuts.process}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>C</kbd></dt>
+                    <dd>{t.shortcuts.contact}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>L</kbd></dt>
+                    <dd>{t.shortcuts.language}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>?</kbd></dt>
+                    <dd>{t.shortcuts.help}</dd>
+                </div>
+                <div class="shortcut-item">
+                    <dt><kbd>Esc</kbd></dt>
+                    <dd>{t.shortcuts.close}</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+</div>

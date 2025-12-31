@@ -1,0 +1,32 @@
+---
+interface Props {
+  t: Record<string, any>;
+}
+
+const { t } = Astro.props;
+---
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">{t.contact.title}</h2>
+
+        <div class="contact-content">
+            <p class="contact-intro">{t.contact.intro}</p>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <strong>{t.contact.location_label}</strong>
+                    <p>{t.contact.location_value}</p>
+                </div>
+                <div class="info-item">
+                    <strong>{t.contact.email_label}</strong>
+                    <p><a href="mailto:contact@casimir.engineering">contact@casimir.engineering</a></p>
+                </div>
+                <div class="info-item">
+                    <strong>{t.contact.phone_label}</strong>
+                    <p>+41 78 882 18 00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

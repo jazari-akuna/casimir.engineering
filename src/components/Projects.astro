@@ -1,0 +1,28 @@
+---
+interface Props {
+  t: Record<string, any>;
+}
+
+const { t } = Astro.props;
+
+const projects = ['devrel', 'elec', 'uav', 'radar', 'cubesat'];
+---
+
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">{t.projects.title}</h2>
+
+        <div class="project-list">
+            {projects.map((key) => (
+                <article class="project">
+                    <h3 class="project-title">{t.proj[key].title}</h3>
+                    <p class="project-description">{t.proj[key].desc}</p>
+                    <div class="project-meta">
+                        <span class="meta-item"><strong>{t.proj.meta.scope}</strong> <span>{t.proj[key].scope}</span></span>
+                        <span class="meta-item"><strong>{t.proj.meta.keywords}</strong> <span>{t.proj[key].keywords}</span></span>
+                    </div>
+                </article>
+            ))}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,57 @@
+---
+import { getAlternateLang, getLanguageInfo } from '../i18n';
+
+interface Props {
+  lang: 'en' | 'fr';
+  t: Record<string, any>;
+}
+
+const { lang, t } = Astro.props;
+const altLang = getAlternateLang(lang);
+const altLangInfo = getLanguageInfo(altLang);
+
+const flags = {
+  en: `<svg width="20" height="14" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="42" fill="#012169"/><path d="M0 0L60 42M60 0L0 42" stroke="#fff" stroke-width="7"/><path d="M0 0L60 42M60 0L0 42" stroke="#C8102E" stroke-width="4"/><path d="M30 0V42M0 21H60" stroke="#fff" stroke-width="14"/><path d="M30 0V42M0 21H60" stroke="#C8102E" stroke-width="8"/></svg>`,
+  fr: `<svg width="20" height="14" viewBox="0 0 60 42" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="42" fill="#002395"/><rect x="20" width="20" height="42" fill="#fff"/><rect x="40" width="20" height="42" fill="#ED2939"/></svg>`
+};
+---
+
+<header class="header">
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href={`/${lang}/#hero`} class="brand-link">
+                <img src="/casimir-eng-logo.svg" alt="Casimir Engineering Logo" class="brand-logo" width="12" height="40">
+                <span class="brand-text">
+                    CASIMIR<br>ENGINEERING
+                </span>
+            </a>
+        </div>
+
+        <!-- CSS-only Mobile Menu Toggle (checkbox hack) -->
+        <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox" aria-label="Toggle menu">
+        <label for="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Open menu">
+            <span class="hamburger-icon"></span>
+        </label>
+
+        <!-- Mobile Language Switcher -->
+        <div class="mobile-lang-wrapper">
+            <a href={`/${altLang}/`} class="nav-link lang-switcher mobile-lang">
+                <span class="shortcut">[L]</span>
+                <span>{altLangInfo.name}</span>
+                <span class="lang-flag" set:html={flags[altLang]} />
+            </a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+            <a href={`/${lang}/#capabilities`} class="nav-link"><span class="shortcut">[K]</span> <span>{t.nav.capabilities}</span></a>
+            <a href={`/${lang}/#projects`} class="nav-link"><span class="shortcut">[P]</span> <span>{t.nav.projects}</span></a>
+            <a href={`/${lang}/#process`} class="nav-link"><span class="shortcut">[W]</span> <span>{t.nav.process}</span></a>
+            <a href={`/${lang}/#contact`} class="nav-link"><span class="shortcut">[C]</span> <span>{t.nav.contact}</span></a>
+            <a href={`/${altLang}/`} class="nav-link lang-switcher">
+                <span class="shortcut">[L]</span>
+                <span>{altLangInfo.name}</span>
+                <span class="lang-flag" set:html={flags[altLang]} />
+            </a>
+        </div>
+    </nav>
+</header>

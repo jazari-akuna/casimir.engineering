@@ -1,0 +1,18 @@
+---
+interface Props {
+  t: Record<string, any>;
+}
+
+const { t } = Astro.props;
+---
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p class="footer-copyright">{t.footer.copyright}</p>
+            <p class="footer-hint">
+                <Fragment set:html={t.footer.hint.replace('?', '<kbd>?</kbd>')} />
+            </p>
+        </div>
+    </div>
+</footer>

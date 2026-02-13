@@ -6,6 +6,10 @@
     'w': '#process',
     'c': '#contact',
     '?': 'shortcuts',
+    ',': 'shortcuts',
+    "'": 'shortcuts',
+    '/': 'shortcuts',
+    'ß': 'shortcuts',
     'l': () => {
       const alt = document.documentElement.lang === 'en' ? 'fr' : 'en';
       window.location.href = '/' + alt + '/';

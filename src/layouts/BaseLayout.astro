@@ -54,7 +54,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Structured Data for Google (language-specific) -->
     <script type="application/ld+json" set:html={JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": ["Organization", "ProfessionalService"],
         "name": "Casimir Engineering",
         "url": `https://casimir.engineering/${lang}/`,
         "logo": "https://casimir.engineering/casimir-eng-logo-square.png",
@@ -64,6 +64,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             "addressLocality": "Lausanne",
             "addressCountry": "CH"
         },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Engineering Services",
+            "itemListElement": Object.values(t.cap).map((cap: any) => ({
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": cap.title,
+                    "description": cap.desc.replace(/<[^>]*>/g, '')
+                }
+            }))
+        },
+        "knowsAbout": t.meta.keywords.split(',').map((k: string) => k.trim()),
         "sameAs": []
     })} />
 

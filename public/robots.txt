@@ -4,3 +4,6 @@ Allow: /
 
 # Sitemap location
 Sitemap: https://casimir.engineering/sitemap.xml
+
+# AI/LLM content
+Llms-txt: https://casimir.engineering/llms.txt

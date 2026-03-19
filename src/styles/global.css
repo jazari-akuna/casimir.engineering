@@ -359,7 +359,7 @@ kbd {
 .hero-intro {
     font-size: var(--font-size-large);
     line-height: var(--line-height-relaxed);
-    max-width: 70ch;
+    max-width: none;
     margin-bottom: var(--space-lg);
 }
 
@@ -549,7 +549,7 @@ kbd {
    ======================================== */
 
 .contact-content {
-    max-width: 70ch;
+    max-width: none;
 }
 
 .contact-intro {

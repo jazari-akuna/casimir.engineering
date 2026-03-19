@@ -35,6 +35,11 @@
 
     e.preventDefault();
 
+    // Shortcuts toggle handles its own state; other actions close overlay and proceed
+    if (action !== 'shortcuts' && overlay && overlay.getAttribute('aria-hidden') !== 'true') {
+      overlay.setAttribute('aria-hidden', 'true');
+    }
+
     if (typeof action === 'function') {
       action();
     } else if (action === 'shortcuts' && overlay) {

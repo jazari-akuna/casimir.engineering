@@ -65,6 +65,12 @@
       "scope": "Périmètre :",
       "keywords": "Mots-clés :"
     },
+    "consumer": {
+      "title": "Production en grande série d'électronique grand public",
+      "desc": "Reconception électronique complète, amélioration produit, design for manufacturing, sourcing, production et contrôle qualité avec <a href=\"https://www.tofupilot.com\">TofuPilot</a>.",
+      "scope": "Reconception électronique, DFM, sourcing, production, contrôle qualité",
+      "keywords": "Électronique grand public, production de masse, DFM, TofuPilot, contrôle qualité"
+    },
     "uav": {
       "title": "Bancs de test de production pour UAV professionnels et militaires",
       "desc": "Conçu, déployé et opéré des bancs de test de production pour UAV de cartographie professionnels et militaires.",

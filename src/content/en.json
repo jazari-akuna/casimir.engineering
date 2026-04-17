@@ -65,6 +65,12 @@
       "scope": "Scope:",
       "keywords": "Keywords:"
     },
+    "consumer": {
+      "title": "High volume consumer electronics production",
+      "desc": "Full electronics redesign, product improvement, design for manufacturing, sourcing, production, and quality control with <a href=\"https://www.tofupilot.com\">TofuPilot</a>.",
+      "scope": "Electronics redesign, DFM, sourcing, production, quality control",
+      "keywords": "Consumer electronics, mass production, DFM, TofuPilot, quality control"
+    },
     "uav": {
       "title": "Production test benches for professional and military UAVs",
       "desc": "Designed, deployed, and operated production test benches for professional and military mapping UAVs.",
